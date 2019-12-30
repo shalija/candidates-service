@@ -7,11 +7,11 @@ import java.util.List;
 @Document("candidates_profiles")
 public class CandidateProfile {
 
- String candidateId;
- String candidateName;
- List<String> jobIds;
- String currentLocation;
- double expectedSalary;
+    String candidateId;
+    String candidateName;
+    List<String> jobIds;
+    String currentLocation;
+    double expectedSalary;
 
 
     public String getCandidateId() {

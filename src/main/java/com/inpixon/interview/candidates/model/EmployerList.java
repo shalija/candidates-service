@@ -1,7 +1,5 @@
 package com.inpixon.interview.candidates.model;
 
-import org.apache.catalina.LifecycleState;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

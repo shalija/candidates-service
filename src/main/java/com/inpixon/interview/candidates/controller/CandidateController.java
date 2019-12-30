@@ -20,8 +20,10 @@ public class CandidateController {
     @GetMapping
     Candidates getCandidates(){
         String transationId= UUID.randomUUID().toString();
+        //TODO
+        //Pagination
+        // Error Response Message
         return new Candidates().transationId(transationId).candidates(candidateService.getCandidates());
-
     }
 
 

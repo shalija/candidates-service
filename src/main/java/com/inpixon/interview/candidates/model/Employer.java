@@ -1,7 +1,7 @@
 package com.inpixon.interview.candidates.model;
 
 public class Employer {
-   String companyName;
+    String companyName;
     String jobTitle;
     double salary;
     String jobLocation;
